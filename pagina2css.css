@@ -4,10 +4,13 @@ body {
 
 .d-flex {
 	padding: 50px;
+	justify-content: center; /* Centrar horizontalmente dentro del contenedor */
+  	align-items: center; /* Centrar verticalmente dentro del contenedor */
 }
 .img-fluid{
-	max-width: 200px;
+	max-width: 300px;
 	margin: 5px auto;
+	border: 10px solid black;
 }
 
 .btn {
@@ -24,4 +27,5 @@ body {
 .container {
 	text-align: center;
 }
+
 
