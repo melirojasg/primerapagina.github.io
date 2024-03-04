@@ -1,0 +1,27 @@
+body {
+ background: black;
+}
+
+.d-flex {
+	padding: 50px;
+}
+.img-fluid{
+	max-width: 200px;
+	margin: 5px auto;
+}
+
+.btn {
+	background: rgb(247 214 112);
+	color: black;
+	font-family: "Book Antiqua", serif;
+	justify-content: center;
+	padding: 20px;
+	border: 5px solid rgb(247 214 112);
+	margin: 50px auto;
+
+}
+
+.container {
+	text-align: center;
+}
+

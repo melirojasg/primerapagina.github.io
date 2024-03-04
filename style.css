@@ -1,0 +1,61 @@
+body {
+	background-image: url(https://i.pinimg.com/564x/a3/98/17/a398172205ddb643df1c322b9cf93c75.jpg);
+}
+
+h1 {
+	font-family: "Book Antiqua", serif;
+	color: whitesmoke;
+	font-size: 70px;
+	padding: 20px;
+	border: 5px solid rgb(162 116 142);
+	background: rgb(162 116 142);
+}
+.bg-translucent{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.nav-item {
+	font-family: "Book Antiqua", serif;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.card-body{
+	font-family: "Book Antiqua", serif;
+	color: black;
+}
+
+.nav-link {
+	color: black ;
+}
+.carousel{
+	max-width: 200px;
+	
+
+}
+.img-fluid{
+	max-width: 200px;
+	
+}
+
+.card {
+	max-width: 100%;
+	background:whitesmoke ;
+	border: 5px solid rgb(142 158 235);
+	
+	
+}
+
+.btn {
+	background: rgb(219 120 87);
+	color: whitesmoke;
+	border: 2px solid rgb(219 120 87);
+}
+
+/*rgb(142 158 235) azul
+rgb(162 116 142) lila oscuro
+rgb(211 195 206) lila claro
+rgb(247 214 112) amarillito
+rgb(219 120 87) rosadito naranja
+*/
+
+
