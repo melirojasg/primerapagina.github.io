@@ -50,7 +50,29 @@ h1 {
 	color: whitesmoke;
 	border: 2px solid rgb(219 120 87);
 }
+@media (max-width: 600px) {
 
+  h1 {
+    justify-content: center;
+    font-family: "Book Antiqua", serif;
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid rgb(162, 116, 142);
+    background: rgb(162, 116, 142);
+    width: 100%; /* Ancho completo en dispositivos móviles */
+    text-align: center; /* Alineación de texto al centro */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  }
+.nav-item {
+	font-family: "Book Antiqua", serif;
+	font-size: 20px;
+	padding: 20px;
+	justify-content: center;
+}
+  .img-fluid {
+    max-width: 100px; /* Ancho máximo del 100px para dispositivos móviles */
+  }
 /*rgb(142 158 235) azul
 rgb(162 116 142) lila oscuro
 rgb(211 195 206) lila claro
