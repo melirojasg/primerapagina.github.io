@@ -3,19 +3,20 @@ body {
 }
 
 h1 {
-	font-family: "Book Antiqua", serif;
+	font-family: "Satisfy", cursive;
 	color: whitesmoke;
 	font-size: 70px;
 	padding: 20px;
 	border: 5px solid rgb(162 116 142);
 	background: rgb(162 116 142);
 }
+
 .bg-translucent{
 	background-color: rgba(255, 255, 255, 0.7);
 }
 .nav-item {
-	font-family: "Book Antiqua", serif;
-	font-size: 20px;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 30px;
 	padding: 20px;
 }
 
@@ -34,8 +35,52 @@ h1 {
 }
 .img-fluid{
 	max-width: 200px;
+
 	
 }
+
+.d-flex {
+	justify-content: center; /* Centrar horizontalmente dentro del contenedor */
+  align-items: center; /* Centrar verticalmente dentro del contenedor */
+}
+
+@media (max-width: 600px) {
+
+  h1 {
+    justify-content: center;
+    font-family: "Satisfy", cursive;
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid rgb(162, 116, 142);
+    background: rgb(162, 116, 142);
+    width: 100%; /* Ancho completo en dispositivos móviles */
+    text-align: center; /* Alineación de texto al centro */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  }
+.nav-item {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 30px;
+	padding: 10px;
+	justify-content: center;
+}
+	.carousel{
+	max-width: 100px;
+}
+  .img-fluid {
+    max-width: 100px; /* Ancho máximo del 100px para dispositivos móviles */
+  }
+
+  .card {
+    max-width: 100%; /* Ancho máximo del 100% para dispositivos móviles */
+    background: whitesmoke;
+    border: 5px solid rgb(142 158 235);
+    justify-content: center;
+    margin-left: auto; /* Centrar el elemento a la derecha */
+  	margin-right: auto; /* Centrar el elemento a la izquierda */
+  }
+}
+
 
 .card {
 	max-width: 100%;
@@ -50,34 +95,13 @@ h1 {
 	color: whitesmoke;
 	border: 2px solid rgb(219 120 87);
 }
-@media (max-width: 600px) {
 
-  h1 {
-    justify-content: center;
-    font-family: "Book Antiqua", serif;
-    color: whitesmoke;
-    font-size: 40px;
-    padding: 10px;
-    border: 2px solid rgb(162, 116, 142);
-    background: rgb(162, 116, 142);
-    width: 100%; /* Ancho completo en dispositivos móviles */
-    text-align: center; /* Alineación de texto al centro */
-    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
-  }
-.nav-item {
-	font-family: "Book Antiqua", serif;
-	font-size: 20px;
-	padding: 20px;
-	justify-content: center;
-}
-  .img-fluid {
-    max-width: 100px; /* Ancho máximo del 100px para dispositivos móviles */
-  }
 /*rgb(142 158 235) azul
 rgb(162 116 142) lila oscuro
 rgb(211 195 206) lila claro
 rgb(247 214 112) amarillito
 rgb(219 120 87) rosadito naranja
 */
+
 
 
